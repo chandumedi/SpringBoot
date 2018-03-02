@@ -19,7 +19,7 @@ import com.ness.test.BootTest;
 
 import junit.framework.Assert;
 
-@TestExecutionListeners( { DependencyInjectionTestExecutionListener.class})
+
 @ContextConfiguration(classes= {BootTest.class})
 @RunWith(SpringJUnit4ClassRunner.class)
 public class OrderTest {
