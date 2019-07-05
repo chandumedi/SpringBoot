@@ -1,6 +1,5 @@
 package com.ness.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +15,7 @@ import com.ness.service.OrderItemService;
 public class BusinessController {
 	@Autowired
 	private OrderItemService orderItemService;
+	///private OrderItemService orderItemService added to create conflict
 	//private OrderItemService orderItemService;
 	@RequestMapping(value="/viewOrders.htm",method = RequestMethod.GET)
 	public ModelAndView viewOrderedItems() {
