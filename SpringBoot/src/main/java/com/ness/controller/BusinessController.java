@@ -16,6 +16,7 @@ import com.ness.service.OrderItemService;
 public class BusinessController {
 	@Autowired
 	private OrderItemService orderItemService;
+	//private OrderItemService orderItemService;
 	@RequestMapping(value="/viewOrders.htm",method = RequestMethod.GET)
 	public ModelAndView viewOrderedItems() {
 		ModelAndView mav=new ModelAndView();
